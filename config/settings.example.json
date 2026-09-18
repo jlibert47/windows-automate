@@ -1,0 +1,16 @@
+{
+  "comment": "Copy this file to settings.json for local overrides. settings.json is gitignored and must not contain secrets.",
+  "defaultOutputDirectory": "output",
+  "logDirectory": "logs",
+  "diskSpace": {
+    "warningPercentFree": 15,
+    "criticalPercentFree": 5
+  },
+  "tempCleanup": {
+    "olderThanDays": 7,
+    "includeWindowsTemp": false
+  },
+  "inventory": {
+    "includeHotfixes": false
+  }
+}
